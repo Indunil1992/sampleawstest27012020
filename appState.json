@@ -1,0 +1,89 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "78d232b9-7d61-4544-ae12-667b2fa27ca6": {
+        "id": "78d232b9-7d61-4544-ae12-667b2fa27ca6",
+        "parent": null,
+        "name": "sampleawstest27012020",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f85e126a-13f9-4b55-ab87-dc888a255ae2"
+        ],
+        "isRemovable": false,
+        "filePath": "sampleawstest27012020"
+      },
+      "f85e126a-13f9-4b55-ab87-dc888a255ae2": {
+        "id": "f85e126a-13f9-4b55-ab87-dc888a255ae2",
+        "parent": "78d232b9-7d61-4544-ae12-667b2fa27ca6",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "sampleawstest27012020/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "78d232b9-7d61-4544-ae12-667b2fa27ca6",
+    "openFiles": [
+      "f85e126a-13f9-4b55-ab87-dc888a255ae2"
+    ],
+    "currentFileId": "f85e126a-13f9-4b55-ab87-dc888a255ae2",
+    "resources": {
+      "translateResource": {
+        "name": "translateResource",
+        "type": "Translate",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "sampleawstest27012020",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1580103855158
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sampleawstest27012020",
+      "url": "https://github.com/Indunil1992/sampleawstest27012020"
+    }
+  }
+}
